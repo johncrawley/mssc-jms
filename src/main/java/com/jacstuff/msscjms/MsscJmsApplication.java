@@ -16,7 +16,7 @@ public class MsscJmsApplication {
 				.setPersistenceEnabled(false)
 				.setJournalDirectory("target/data/journal")
 				.setSecurityEnabled(false)
-				.addAcceptorConfiguration("invm", "vm://0"));
+				.addAcceptorConfiguration("invm", "vm://1121"));
 		server.start();
 		}catch(Exception e) {
 			e.printStackTrace();
